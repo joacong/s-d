@@ -1,0 +1,67 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,600,100,700);
+
+body{
+    font-family: 'raleway', sans-serif;
+    font-weight: 400;
+    background-color: #f6f4e5;
+}
+
+a{
+    font-family: 'raleway', sans-serif;
+    font-weight: 600;
+    color: #b93a3e;
+}
+
+
+.navbar{
+    height: 100px;
+    background-color: #b93a3e;
+}
+
+.navbar-brand{
+    padding: 40px 15px;
+}
+
+.navbar-nav>li>a{
+    padding: 40px 25px;
+}
+
+.navbar-nav>li>a:hover{
+    background-color: #80282c;
+}
+
+.dropdown-menu>li>a:hover{
+    background-color: #b93a3e;
+}
+
+.nav-pills>li.active>a{
+    background-color: #b93a3e;
+}
+
+.nav-pills>li.active>a:hover{
+    background-color: #80282c;
+}
+
+.btn-primary {
+    color: #ffffff;
+    background-color: #b93a3e;
+    border-color: #b93a3e;
+}
+
+.panel-primary{
+    border-color: #b93a3e;
+}
+
+.panel-primary>.panel-heading {
+    background-color: #b93a3e;
+    border-color: #b93a3e;
+}
+
+.list-group-item.active{
+    background-color: #b93a3e;
+    border-color: #b93a3e;
+}
+.list-group-item.active:hover{
+    background-color: #80282c;
+    border-color: #80282c;
+}
