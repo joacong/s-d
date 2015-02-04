@@ -3,7 +3,15 @@
     case 'ohio':
       $title = "Seguros Ohio";
       $name = "ohio";
+      $folder = 'ohio';
       $description = "Breve descripcion de seguros ohio";
+      $size = 12;
+      break;
+    case 'generalli-jubilacion':
+      $title = "Jubilacion";
+      $folder = 'generalli/jubilacion';
+      $name = "generalli-jubilacion";
+      $description = "Breve descripcion de generalli jubilacion";
       $size = 12;
       break;
     default:
@@ -50,7 +58,7 @@
                 $_class = "item active";
             ?>
             <div class="<?= $_class ?>">
-              <img src="img/<?= $name ?>/<?= $name ?>-<?= $i ?>.png" alt="logo">
+              <img src="img/<?= $folder ?>/<?= $name ?>-<?= $i ?>.png" alt="logo">
             </div>
           <?php } ?>
         </div>

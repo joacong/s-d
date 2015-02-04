@@ -19,8 +19,8 @@
             </a>
          </div>
          <div class="col-lg-4">
-            <a href="product.php?name=otro">
-             <div class="product" style="background: url('img/ohio/logo.png');background-size: 340px 340px; background-repeat: no-repeat;background-position: center;"></div>
+            <a href="product.php?name=generalli-jubilacion">
+             <div class="product" style="background: url('img/generalli/jubilacion/logo.png');background-size: 340px 340px; background-repeat: no-repeat;background-position: center;"></div>
             </a>
          </div>
          <div class="col-lg-4">
