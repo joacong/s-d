@@ -7,8 +7,10 @@
       $size = 12;
       break;
     default:
-      $name = "Producto no encontrado";
+      $title = "Producto no encontrado";
+      $name = "none";
       $description = "Lamentablemente el producto no ha sido encontrado";
+      $size = 0;
       break;
   }
 ?>
