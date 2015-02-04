@@ -30,7 +30,7 @@
         </div>
       </div>
 
-      <div id="carousel-example-generic" class="carousel slide col-lg-offset-2 col-lg-8" data-ride="carousel">
+      <div id="carousel-example-generic" class="carousel slide col-lg-offset-1 col-lg-10" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">
           <?php for($i = 0; $i < $size; $i++){
