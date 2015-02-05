@@ -1,4 +1,5 @@
-<?php
+<?php include('variables.php');
+
   switch($_GET['name']){
     case 'ohio':
       $title = "Seguros Ohio";
@@ -25,9 +26,9 @@
 
 <!DOCTYPE html>
 <html>
-<?php include('layout/head.html') ?>
+<?php include('layout/head.php') ?>
 <body>
-  <?php include('layout/navbar.html') ?>
+  <?php include('layout/navbar.php') ?>
     <div class="container">
       <div class="page-header" id="banner">
         <div class="row">
@@ -74,6 +75,6 @@
         </a>
       </div>
     </div>
-  <?php include('layout/footer.html') ?>
+  <?php include('layout/footer.php') ?>
 </body>
 </html>

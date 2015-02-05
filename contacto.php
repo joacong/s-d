@@ -1,8 +1,9 @@
+<?php include('variables.php'); ?>
 <!DOCTYPE html>
 <html>
-<?php include('layout/head.html') ?>
+<?php include('layout/head.php') ?>
 <body>
-  <?php include('layout/navbar.html') ?>
+  <?php include('layout/navbar.php') ?>
     <div class="container">
       <div class="page-header" id="banner">
         <div class="row">
@@ -33,7 +34,7 @@
 		  </div>
 	   </form>
     </div>
-  <?php include('layout/footer.html') ?>
+  <?php include('layout/footer.php') ?>
   <script src="js/contacto.js"></script>
 </body>
 </html>
